@@ -1,0 +1,8 @@
+class Size {
+    public static void main(String[] args) {
+        System.out.println("int: 4 bytes");
+        System.out.println("char: 2 bytes");
+        System.out.println("float: 4 bytes");
+        System.out.println("double: 8 bytes");
+    }
+}

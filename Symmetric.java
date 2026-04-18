@@ -1,0 +1,16 @@
+class Symmetric {
+ public static void main(String[] args){
+  int a[][]={{1,2},{2,1}};
+  int flag=1;
+  for(int i=0;i<2;i++){
+   for(int j=0;j<2;j++){
+    if(a[i][j]!=a[j][i])
+     flag=0;
+   }
+  }
+  if(flag==1)
+   System.out.println("Symmetric");
+  else
+   System.out.println("Not Symmetric");
+ }
+}
